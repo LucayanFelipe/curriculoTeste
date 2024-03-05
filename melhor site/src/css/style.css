@@ -1,0 +1,72 @@
+.im1 {
+    width: 300px;
+}
+.im2 {
+    width: 300px;
+}
+
+section {
+    border-top: solid 1px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    font-size: 18px;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-timing-function: ease-out;
+}
+
+h1, h2 {
+    font-size: 28px;
+}
+
+body {
+    
+    background-color: pink;
+    font-family: 'Times New Roman', Times;
+    color: rgb(255, 0, 170);
+    line-height: 1.5;
+}
+
+.page-container {
+    width: 21cm;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2.5%;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 0 1cm rgba(81, 1, 88, 0.5);
+    flex: 1;
+}
+
+p {
+    text-align: justify;
+    color: blueviolet;
+}
+
+@keyframes slidein {
+
+    60% {
+        font-size: 200%;
+        margin-left: 50%;
+        width: 150%;
+      }
+
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+li,ul {
+    color: blueviolet;
+}
+
+
+
+
